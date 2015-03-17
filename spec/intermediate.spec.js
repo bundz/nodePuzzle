@@ -1,6 +1,7 @@
 var chai = require("chai"),
     expect = chai.expect,
-    nodePuzzle = require("../lib/nodePuzzle");
+    nodePuzzle = require("../lib/nodePuzzle")
+    SearchEngine = require("../lib/searchEngine");
 
 describe("intermediate", function () {
   
@@ -27,8 +28,6 @@ describe("intermediate", function () {
       expect(possibleStates[1].empty.x).to.be.equals(1);
       expect(possibleStates[1].empty.y).to.be.equals(2);
     });
-    
-    
     
   });
   

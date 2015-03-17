@@ -47,8 +47,10 @@ describe("initialization", function () {
     });
     
     it("empty attribute should have the correct x and y values", function () {
+      
       expect(eightPuzzle.puzzle.empty.x).to.be.equals(2);
-      expect(eightPuzzle.puzzle.empty.y).to.be.equals(2);
+      expect(eightPuzzle.puzzle.empty.y).to.be.equals(2);      
+      
     });
     
   });
