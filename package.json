@@ -1,0 +1,26 @@
+{
+  "name": "nodePuzzle",
+  "version": "1.0.0",
+  "description": "Nodejs implementataion of npuzzle",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bundz/nodePuzzle.git"
+  },
+  "keywords": [
+    "npuzzle"
+  ],
+  "author": "Vitor Alano de Ataides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bundz/nodePuzzle/issues"
+  },
+  "homepage": "https://github.com/bundz/nodePuzzle",
+  "dependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1"
+  }
+}
