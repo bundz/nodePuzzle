@@ -3,9 +3,9 @@ var chai = require("chai"),
     nodePuzzle = require("../lib/nodePuzzle");
 
 
-describe("nodePuzzle", function () {
+describe("initialization", function () {
   
-  describe("When creating a new instance of nodePuzzle", function () {
+  describe("when creating a new instance of nodePuzzle", function () {
     
     eightPuzzle = new nodePuzzle(3);
     threePuzzle = new nodePuzzle(2);
@@ -46,8 +46,13 @@ describe("nodePuzzle", function () {
       
     });
     
+    it("empty attribute should have the correct x and y values", function () {
+      expect(eightPuzzle.puzzle.empty.x).to.be.equals(2);
+      expect(eightPuzzle.puzzle.empty.y).to.be.equals(2);
+    });
+    
   });
-  
+    
 });
 
 
